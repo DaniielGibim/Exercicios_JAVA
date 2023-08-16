@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exercicio_Triangulo/Exercicio_Triangulo.iml" filepath="$PROJECT_DIR$/Exercicio_Triangulo/Exercicio_Triangulo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicios_JAVA.iml" filepath="$PROJECT_DIR$/Exercicios_JAVA.iml" />
     </modules>
   </component>
