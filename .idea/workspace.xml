@@ -5,34 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0a444fd-b4ca-4ac4-981f-d0794aabd836" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Nota/Ex1Nota.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Nota/src/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Nota/src/Compra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Nota/src/Eletrodomestico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Nota/src/IMostrarDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Nota/src/ItemCompra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Nota/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Nota/src/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Nota/src/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Nota/src/Vendedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio_Livro/Exercicio_Livro.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio_Livro/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SomaVetores/SomaVetores.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SomaVetores/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prova_2023_1S/prova_2023_1S.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prova_2023_1S/src/controller/CompraController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prova_2023_1S/src/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prova_2023_1S/src/model/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prova_2023_1S/src/model/Compra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prova_2023_1S/src/model/Eletrodomestico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prova_2023_1S/src/model/IMostrarDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prova_2023_1S/src/model/ItemCompra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prova_2023_1S/src/model/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prova_2023_1S/src/model/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prova_2023_1S/src/model/Vendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1Nota/src/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ex1Nota/src/Compra.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,15 +34,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/Usuario/Documents/MeusPojetos/Exercicios_JAVA"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Documents/MeusPojetos/Exercicios_JAVA&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
@@ -100,5 +73,16 @@
       <updated>1692203696364</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
