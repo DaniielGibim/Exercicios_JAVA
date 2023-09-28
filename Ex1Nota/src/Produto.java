@@ -1,19 +1,26 @@
-public class Produto {
+public class Produto implements IMostrarDados{
 
-    private String descriscao;
+    private String descricao;
     private double precoUnitario;
 
+    @Override
+    public void mostrarDados() {
+        System.out.println("\n Descrição: " + this.getDescricao()
+                + "\n Preço: " + this.getPrecoUnitario());
+    }
+
     public Produto(String descriscao, double precoUnitario) {
-        this.descriscao = descriscao;
+        this.descricao = descriscao;
         this.precoUnitario = precoUnitario;
     }
 
-    public String getDescriscao() {
-        return descriscao;
+    public String getDescricao()
+    {
+        return descricao;
     }
 
-    public void setDescriscao(String descriscao) {
-        this.descriscao = descriscao;
+    public void setDescricao(String descriscao) {
+        this.descricao = descriscao;
     }
 
     public double getPrecoUnitario() {

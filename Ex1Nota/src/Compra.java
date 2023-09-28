@@ -1,5 +1,8 @@
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class Compra implements IMostrarDados {
@@ -18,8 +21,23 @@ public class Compra implements IMostrarDados {
         double total = 0;
         for (ItemCompra i : itemCompraList)
             total = total + i.getValorTotal();
+        valorTotalCompra = total;
 
+        if (total>5000)
+            this.valorDesconto = this.getValorTotalCompra() * 0.10;
+            else
+                this.valorDesconto=0;
 
+        this.valorPagar = this.getValorTotalCompra() - this.valorDesconto;
+    }
+
+    void incluirItemCompra (ItemCompra...itemCompra){
+        Collections.addAll(itemCompraList, itemCompra);
+        this.calcDesconto();
+    }
+    void removerItemCompra(ItemCompra itemCompra) {
+        itemCompraList.remove(itemCompra);
+        this.calcDesconto();
     }
 
     public Compra(String numeroCompra, LocalDate dataCompra,Vendedor vendedor, Cliente cliente ) {
@@ -29,6 +47,7 @@ public class Compra implements IMostrarDados {
         this.cliente = cliente;
 
     }
+
 
     public String getNumeroCompra() {
         return numeroCompra;
@@ -93,10 +112,24 @@ public class Compra implements IMostrarDados {
 
     public void setItemCompraList(List<ItemCompra> itemCompraList) {
         this.itemCompraList = itemCompraList;
+        calcDesconto();
     }
 
     @Override
     public void mostrarDados() {
+        System.out.println("\n Número da Compra: " + this.getNumeroCompra()
+                + "\n Data: "+ this.getDataCompra().format(DateTimeFormatter.ofPattern("dd/MM/yyyy"))
+                + "\n Vendedor: " + this.getVendedor().getNome()
+                + "\n Cliente: " + this.getCliente().getNome()
+                + "\n Valor Total: " + this.getValorTotalCompra()
+                + "\n Desconto: " + this. getValorDesconto()
+                + "\n Valor a Pagar: " + this.getValorPagar());
+        System.out.println(" Itens da Compra: ");
+        for (ItemCompra i: itemCompraList)
+            System.out.println(" Produto: " + i.getProduto().getDescricao()
+                    + "\n Quantidade: " + i.getQuantidadeComprada());
+
 
     }
+
 }
