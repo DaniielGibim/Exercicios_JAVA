@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Calculo_Montante/Calculo_Montante.iml" filepath="$PROJECT_DIR$/Calculo_Montante/Calculo_Montante.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex1Nota/Ex1Nota.iml" filepath="$PROJECT_DIR$/Ex1Nota/Ex1Nota.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicio_Consultorio/Exercicio_Consultorio.iml" filepath="$PROJECT_DIR$/Exercicio_Consultorio/Exercicio_Consultorio.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicio_Livro/Exercicio_Livro.iml" filepath="$PROJECT_DIR$/Exercicio_Livro/Exercicio_Livro.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicio_Notas/Exercicio_Notas.iml" filepath="$PROJECT_DIR$/Exercicio_Notas/Exercicio_Notas.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicio_Triangulo/Exercicio_Triangulo.iml" filepath="$PROJECT_DIR$/Exercicio_Triangulo/Exercicio_Triangulo.iml" />
